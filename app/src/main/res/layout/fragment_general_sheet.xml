@@ -1,0 +1,181 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="horizontal"
+    tools:context="com.nerdcove.suiaerl.universalcharactersheet.fragments.GeneralSheetFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+             android:id="@+id/character_name_title"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/character_name_title" />
+        <EditText
+            android:id="@+id/character_name_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/character_name_title"
+            android:layout_margin="11px"
+            android:hint="input name here"/>
+
+        <TextView
+            android:id="@+id/player_name_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/character_name_entry"
+            android:text="@string/player_name_title"/>
+        <EditText
+            android:id="@+id/player_name_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/player_name_title"
+            android:hint="input player name"/>
+
+        <TextView
+            android:id="@+id/alignments_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/player_name_entry"
+            android:text="@string/alignments_title"/>
+        <Spinner
+            android:id="@+id/alignment_drop_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alignments_title"
+            android:entries="@array/alignment_list"/>
+
+        <TextView
+            android:id="@+id/deity_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alignment_drop_down"
+            android:text="@string/deity_title"/>
+        <EditText
+            android:id="@+id/deity_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/deity_title"
+            android:hint="Type diety name"/>
+
+        <TextView
+            android:id="@+id/homeland_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/deity_entry"
+            android:text="@string/homeland_title"/>
+        <EditText
+            android:id="@+id/homeland_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/homeland_title"
+            android:hint="Type homeland name"/>
+
+        <TextView
+            android:id="@+id/race_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/homeland_entry"
+            android:text="@string/race_title"/>
+        <EditText
+            android:id="@+id/race_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/race_title"
+            android:hint="Type race name"/>
+
+        <TextView
+            android:id="@+id/size_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/race_entry"
+            android:text="@string/size_title"/>
+        <EditText
+            android:id="@+id/size_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/size_title"
+            android:hint="Type size name"/>
+
+        <TextView
+            android:id="@+id/gender_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/size_entry"
+            android:text="@string/gender_title"/>
+        <EditText
+            android:id="@+id/gender_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gender_title"
+            android:hint="Type gender"/>
+
+        <TextView
+            android:id="@+id/age_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gender_entry"
+            android:text="@string/age_title"/>
+        <EditText
+            android:id="@+id/age_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/age_title"
+            android:hint="Type age name"/>
+
+        <TextView
+            android:id="@+id/height_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/age_entry"
+            android:text="@string/age_title"/>
+        <EditText
+            android:id="@+id/height_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/height_title"
+            android:hint="Type height"/>
+
+        <TextView
+            android:id="@+id/weight_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/height_entry"
+            android:text="@string/weight_title"/>
+        <EditText
+            android:id="@+id/weight_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weight_title"
+            android:hint="Type weight"/>
+
+        <TextView
+            android:id="@+id/hair_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weight_entry"
+            android:text="@string/hair_title"/>
+        <EditText
+            android:id="@+id/hair_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hair_title"
+            android:hint="Type hair color"/>
+
+        <TextView
+            android:id="@+id/eyes_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hair_entry"
+            android:text="@string/eyes_title"/>
+        <EditText
+            android:id="@+id/eyes_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eyes_title"
+            android:hint="Type eye color"/>
+    </RelativeLayout>
+</ScrollView>

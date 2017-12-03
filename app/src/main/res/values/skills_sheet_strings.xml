@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ****************** Skills character sheet headers ****************** -->
+    <string name="skills_fragment_title">Skills</string>
+    <string name="ranks_title">Ranks</string>
+    <string name="class_title">Class</string>
+    <string name="racial_title">Racial</string>
+    <string name="trait_title">Trait</string>
+    <string name="misc_title">Misc</string>
+    <string name="skill_name_title">Skill Name</string>
+    <string name="trained_only_title">* Trained Only</string>
+    <!-- So many skills..... -->
+    <string name="acrobatics_title">Acrobatics</string>
+    <string name="appraise_title">Appraise</string>
+    <string name="bluff_title">Bluff</string>
+    <string name="climb_title">Climb</string>
+    <string name="craft_title_format">Craft(%1$d)</string>
+    <string name="diplomacy_title">Diplomacy</string>
+    <string name="disable_device_title">Disable Device*</string>
+    <string name="disguise_title">Disguise</string>
+    <string name="escape_artist_title">Escape Artist</string>
+    <string name="fly_title">Fly</string>
+    <string name="handle_animal_title">Handle Animal*</string>
+    <string name="heal_title">Heal</string>
+    <string name="intimidate_title">Intimidate</string>
+    <string name="knowledge_arcana_title">Knowledge(Arcana)*</string>
+    <string name="knowledge_dungeoneering_title">Knowledge(Dungeoneering)*</string>
+    <string name="knowledge_engineering_title">Knowledge(Engineering)*</string>
+    <string name="knowledge_history_title">Knowledge(History)*</string>
+    <string name="knowledge_local_title">Knowledge(Local)*</string>
+    <string name="knowledge_nature_title">Knowledge(Nature)*</string>
+    <string name="knowledge_nobility_title">Knowledge(Nobility)*</string>
+    <string name="knowledge_planes_title">Knowledge(Planes)*</string>
+    <string name="knowledge_religion_title">Knowledge(Religion)*</string>
+    <string name="linguistics_title">Linguistics*</string>
+    <string name="perception_title">Perception</string>
+    <string name="perform_title_format">Perform(%1$d)</string>
+    <string name="profession_title_format">Profession(%1$d)*</string>
+    <string name="ride_title">Ride</string>
+    <string name="sense_motive_title">Sense Motive</string>
+    <string name="sleight_of_hand_title">Sleight of Hand*</string>
+    <string name="spellcraft_title">Spellcraft*</string>
+    <string name="stealth_title">Stealth</string>
+    <string name="survival_title">Survival</string>
+    <string name="swim_title">Swim</string>
+    <string name="use_magic_device_title">Use Magic Device*</string>
+</resources>

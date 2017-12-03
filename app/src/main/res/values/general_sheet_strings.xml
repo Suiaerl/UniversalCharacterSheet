@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ****************** General character sheet headers ****************** -->
+    <string name="general_fragment_title">General</string>
+    <string name="character_name_title">Character Name</string>
+    <string name="alignments_title">Alignments</string>
+    <string name="player_name_title">Player Name</string>
+    <string name="character_class_and_level">Character Class and Level</string>
+    <string name="deity_title">Deity</string>
+    <string name="homeland_title">Homeland</string>
+    <string name="race_title">Race</string>
+    <string name="size_title">Size</string>
+    <string name="gender_title">Gender</string>
+    <string name="age_title">Age</string>
+    <string name="height_title">Height</string>
+    <string name="weight_title">Weight</string>
+    <string name="hair_title">Hair</string>
+    <string name="eyes_title">Eyes</string>
+
+    <string-array name="alignment_list">
+        <item>Lawful Good</item>
+        <item>Lawful Neutral</item>
+        <item>Lawful Evil</item>
+        <item>Neutral Good</item>
+        <item>Neutral</item>
+        <item>Neutral Evil</item>
+        <item>Chaotic Good</item>
+        <item>Chaotic Neutral</item>
+        <item>Chaotic Evil</item>
+    </string-array>
+</resources>
